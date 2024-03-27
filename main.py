@@ -16,6 +16,8 @@ try:
 
     validation_flag = True
 except:
+    policy_name=""
+    policy_document=""
     validation_flag = False
 
 
