@@ -138,13 +138,13 @@ class TestSolution(unittest.TestCase):
         # Test for invalid Action
         setValidationFlag()
         policy_document = {"Version": "2012-10-17",
-                           "Statement": [{"Sid": "1", "Effect": "Allow", "Action": [], "Resource": "xd"}]}
+                           "Statement": [{"Sid": "1", "Effect": "Allow", "Action": [], "Resource": "*"}]}
         self.assertTrue(solution(self.valid_policy_name, policy_document))
 
     def test_no_effect(self):
         # Test for lack of effect
         setValidationFlag()
-        policy_document = {"Version": "2012-10-17", "Statement": [{"Sid": "1", "Action": [], "Resource": "xd"}]}
+        policy_document = {"Version": "2012-10-17", "Statement": [{"Sid": "1", "Action": [], "Resource": "*"}]}
         self.assertTrue(solution(self.valid_policy_name, policy_document))
 
     def test_invalid_resource_and_name(self):
