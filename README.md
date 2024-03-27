@@ -84,7 +84,8 @@ policy_name Tests with edge cases:
 
 policy_doucments Tests with edge cases:
 
-![image](https://github.com/LukaszKrolicki/AWS-IAM-Role-JSON-verification/assets/54467678/7d76ab10-7509-4aa8-9e3b-fd9d98f05833)
+![image](https://github.com/LukaszKrolicki/AWS-IAM-Role-JSON-verification/assets/54467678/45f8d650-a00a-4bde-a9e4-5b5e36acf32a)
+
 
 ![image](https://github.com/LukaszKrolicki/AWS-IAM-Role-JSON-verification/assets/54467678/83d1bdbd-c033-4cb7-862f-370aac517ac7)
 
