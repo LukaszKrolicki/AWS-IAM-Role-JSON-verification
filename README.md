@@ -1,3 +1,18 @@
+How to run:
+
+1. Make sure you have Python installed on your system and that it's accessible from the command line. 
+
+2. bash cd path/to/directory
+
+3. python main.py
+
+Result:
+
+![image](https://github.com/LukaszKrolicki/AWS-IAM-Role-JSON-verification/assets/54467678/2b1c64b6-8d21-466f-aff5-985c22f928bc)
+
+
+--------------------------------------
+
 Method shall return logical false if an input JSON Resource field contains a single asterisk and true in any other case. 
 
 Verifying the input JSON data:
@@ -73,7 +88,15 @@ policy_doucments Tests with edge cases:
 
 ![image](https://github.com/LukaszKrolicki/AWS-IAM-Role-JSON-verification/assets/54467678/83d1bdbd-c033-4cb7-862f-370aac517ac7)
 
+----------------------------------------------------------
 
+Result with properly formatted json
+
+![image](https://github.com/LukaszKrolicki/AWS-IAM-Role-JSON-verification/assets/54467678/e68ae1e6-50eb-43c9-8d4a-728a98a5498f)\
+
+Result with wrongly formatted json
+
+![image](https://github.com/LukaszKrolicki/AWS-IAM-Role-JSON-verification/assets/54467678/f29634a5-b5ee-41ae-95e5-9f07d9c26b09)
 
 
 
